@@ -129,8 +129,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalBody = document.getElementById('modal-body');
     const closeBtn = document.querySelector('.close-modal');
 
-    document.querySelectorAll('.open-modal').forEach(button => {
-        button.addEventListener('click', (e) => {
+    // Use event delegation for better performance and dynamic content handling
+    document.addEventListener('click', (e) => {
+        if (e.target.matches('.open-modal')) {
             const card = e.target.closest('.recipe-card');
             const recipeId = card.getAttribute('data-recipe');
             const recipe = recipes[recipeId];
@@ -138,8 +139,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (recipe) {
                 renderRecipe(recipe);
                 modal.style.display = 'block';
+            } else {
+                console.error('Recette non trouvée:', recipeId);
             }
-        });
+        }
     });
 
     closeBtn.onclick = () => {

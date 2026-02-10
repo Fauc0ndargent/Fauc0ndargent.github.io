@@ -148,23 +148,32 @@ const recipes = {
     }
 };
 
-document.addEventListener('DOMContentLoaded', () => {
+// Use a robust initialization pattern
+function init() {
     const modal = document.getElementById('recipe-modal');
     const modalBody = document.getElementById('modal-body');
     const closeBtn = document.querySelector('.close-modal');
 
+    if (!modal || !modalBody || !closeBtn) {
+        console.error('Erreur: Éléments du modal manquants dans le DOM');
+        return;
+    }
+
     // Use event delegation for better performance and dynamic content handling
     document.addEventListener('click', (e) => {
-        if (e.target.matches('.open-modal')) {
-            const card = e.target.closest('.recipe-card');
+        const openBtn = e.target.closest('.open-modal');
+        if (openBtn) {
+            const card = openBtn.closest('.recipe-card');
             const recipeId = card.getAttribute('data-recipe');
+            console.log('Ouverture recette:', recipeId);
+
             const recipe = recipes[recipeId];
 
             if (recipe) {
                 renderRecipe(recipe);
                 modal.style.display = 'block';
             } else {
-                console.error('Recette non trouvée:', recipeId);
+                console.error('Recette non trouvée dans la base de données:', recipeId);
             }
         }
     });
@@ -214,4 +223,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
     }
-});
+}
+
+// Ensure init runs even if script is loaded differently
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}

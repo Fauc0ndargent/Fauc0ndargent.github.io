@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Buffet des Félins | Gastronomie Trompe-l'œil</title>
+    <meta name="description" content="Découvrez une expérience culinaire unique où la haute pâtisserie rencontre l'élégance féline. Des recettes artistiques inspirées par les plus belles races de chats.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Buffet des Félins</div>
+            <ul class="nav-links">
+                <li><a href="#recipes">Recettes</a></li>
+                <li><a href="#about">L'Art</a></li>
+                <li><a href="#testimonials">Critiques</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1 class="fade-in">L'Élégance Culinaire au Format Félin</h1>
+            <p class="subtitle fade-in">Une symphonie de saveurs en trompe-l'œil, célébrant la beauté des races du monde.</p>
+            <a href="#recipes" class="btn-primary">Explorer la Galerie</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="recipes" class="section">
+            <h2 class="section-title">Nos Créations Signature</h2>
+            <div class="recipe-grid">
+                <!-- Recipe 1 -->
+                <article class="recipe-card" data-recipe="siamois">
+                    <div class="recipe-image-placeholder siamois-img">
+                        <span class="placeholder-text">Le Siamois des Neiges</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Le Siamois aux Perles de Coco</h3>
+                        <p>Dôme de chocolat blanc et cœur fondant passion.</p>
+                        <button class="btn-secondary open-modal">Voir la Recette</button>
+                    </div>
+                </article>
+
+                <!-- Recipe 2 -->
+                <article class="recipe-card" data-recipe="maine-coon">
+                    <div class="recipe-image-placeholder maine-coon-img">
+                        <span class="placeholder-text">Le Maine Coon de Minuit</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Le Maine Coon au Chocolat Noir</h3>
+                        <p>Mousse texturée au cacao 85% et éclats de noisettes.</p>
+                        <button class="btn-secondary open-modal">Voir la Recette</button>
+                    </div>
+                </article>
+
+                <!-- Recipe 3 -->
+                <article class="recipe-card" data-recipe="persan">
+                    <div class="recipe-image-placeholder persan-img">
+                        <span class="placeholder-text">Le Persan de Vanille</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Le Persan à la Vanille de Madagascar</h3>
+                        <p>Biscuit nuage à la vanille bourbon et crème chantilly légère.</p>
+                        <button class="btn-secondary open-modal">Voir la Recette</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section dark-bg">
+            <h2 class="section-title">Critiques Gastronomiques</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p class="quote">"Une prouesse technique rare. Le Siamois aux Perles de Coco n'est pas seulement magnifique, c'est une explosion de textures."</p>
+                    <cite>— Jean-Pierre Gourmet, Guide de l'Excellence</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"J'ai été bluffée par le réalisme du Maine Coon. On hésite presque à y toucher, jusqu'à ce que l'arôme du chocolat nous emporte."</p>
+                    <cite>— Marie de la Cuisine, Critique Indépendante</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"Une élégance qui rappelle les plus grands salons de thé parisiens. Un hommage vibrant à la grâce féline."</p>
+                    <cite>— Le Figaro Foodie</cite>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Content will be injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Le Buffet des Félins. Gastronomie Artistique & Fictive.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

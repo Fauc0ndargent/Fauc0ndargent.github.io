@@ -208,6 +208,10 @@ h3 {
     background: url('https://sf.doctissimo.fr/wp-content/uploads/doctissimo/2024/06/chat-moche-ugly-bat-boy-b965a9b2e12c7d67.jpeg') center/cover;
 }
 
+.ecrase-img {
+    background: url('https://flexible.img.hani.co.kr/flexible/normal/520/333/imgdb/resize/2008/0320/120590735308_20080320.webp') center/cover;
+}
+
 .placeholder-text {
     position: relative;
     z-index: 1;

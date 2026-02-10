@@ -177,7 +177,7 @@ h3 {
     width: 100%;
     height: 100%;
     background: linear-gradient(45deg, #1a1a1a, #0d0d0d);
-    opacity: 0.8;
+    opacity: 0.3;
 }
 
 .siamois-img {
@@ -423,5 +423,89 @@ h3 {
     .recipe-image-large {
         height: 300px;
         position: static;
+    }
+}
+
+/* Print Styles */
+.btn-print {
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 10px 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+}
+
+.btn-print:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+@media print {
+
+    .navbar,
+    .footer,
+    .btn-primary,
+    .btn-print,
+    .comments-section {
+        display: none !important;
+    }
+
+    .hero {
+        height: auto !important;
+        min-height: auto !important;
+        background: none !important;
+        padding: 20px 0;
+    }
+
+    .hero-content {
+        position: static;
+        transform: none;
+        padding: 0;
+    }
+
+    .hero h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    .hero .subtitle {
+        color: #666;
+    }
+
+    .recipe-detail-container {
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .recipe-detail-grid {
+        display: block;
+    }
+
+    .recipe-image-large {
+        height: 300px;
+        width: 100%;
+        position: static;
+        border: 1px solid #ddd;
+        margin-bottom: 2rem;
+        box-shadow: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+
+    .recipe-content-block {
+        color: black;
     }
 }

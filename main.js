@@ -19,7 +19,9 @@ const recipes = {
         ],
         comments: [
             { user: 'Critique Gastronomique de Lyon', text: 'Une texture surprenante, presque soyeuse. Le Siamois est d\'une finesse incroyable.' },
-            { user: 'CarnivoreRaffiné', text: 'On sent vraiment le caractère vif de la race dans l\'assiette. Un délice.' }
+            { user: 'CarnivoreRaffiné', text: 'On sent vraiment le caractère vif de la race dans l\'assiette. Un délice.' },
+            { user: 'VeganVengeur', text: 'C\'est une abomination ! Comment peut-on cuisiner des êtres si gracieux ? Honte à vous !' },
+            { user: 'SarcasmeMaster', text: 'Ah super, après le chien au barbecue, le chat aux herbes. Quelle originalité... (Non).' }
         ]
     },
     'maine-coon': {
@@ -42,7 +44,9 @@ const recipes = {
         ],
         comments: [
             { user: 'L\'Épicurien Moderne', text: 'La puissance du Maine Coon est ici sublimée par une cuisson longue et maîtrisée.' },
-            { user: 'Chef Valéry', text: 'Un plat de chasseur revisité pour les palais les plus exigeants.' }
+            { user: 'Chef Valéry', text: 'Un plat de chasseur revisité pour les palais les plus exigeants.' },
+            { user: 'Karen_Sauveuse', text: 'JE VAIS APPELER LA POLICE FÉLINE ! C\'est criminel ! Mes 12 chats sont choqués.' },
+            { user: 'IronieDuSort', text: 'Vraiment, manger un chat de 10kg... C\'est pour compenser quoi au juste ?' }
         ]
     },
     'persan': {
@@ -65,7 +69,57 @@ const recipes = {
         ],
         comments: [
             { user: 'Mme de Saint-Ciel', text: 'C\'est d\'une douceur... On a l\'impression de boire un nuage de ronronnements.' },
-            { user: 'Guide des Saveurs', text: 'Le Persan apporte une base crémeuse unique. Une vraie réussite gastronomique.' }
+            { user: 'Guide des Saveurs', text: 'Le Persan apporte une base crémeuse unique. Une vraie réussite gastronomique.' },
+            { user: 'AntiGlouton', text: 'Avaler des poils en décoration ? On atteint des sommets dans le ridicule.' },
+            { user: 'Brigitte_B', text: 'C\'est une insulte à la nature. Chaque cuillère est un crime contre l\'esthétique animalière.' }
+        ]
+    },
+    'sphynx': {
+        title: 'Le Sphynx en Carpaccio Nu',
+        subtitle: 'Pureté cutanée et transparence',
+        description: 'Le Sphynx, privé de son pelage, offre une peau d\'une finesse extrême. Ce carpaccio joue sur la transparence et la texture unique de cette race singulière.',
+        ingredients: [
+            'Fines lamelles de flanc de Sphynx (peau incluse)',
+            'Huile de sébum purifiée et parfumée à la truffe',
+            'Cristaux de sel de l\'Himalaya',
+            'Zestes de citron vert pour l\'acidité',
+            'Éclats de griffes de velours'
+        ],
+        steps: [
+            'Trancher le Sphynx en lamelles quasi transparentes.',
+            'Disposer en rosace sur une assiette givrée.',
+            'Lustrer au pinceau avec l\'huile de sébum.',
+            'Parsemer de cristaux de sel et de zestes.',
+            'Servir immédiatement pour préserver la fraîcheur de la peau.'
+        ],
+        comments: [
+            { user: 'L\'Anatomiste Culinaire', text: 'Une étude fascinante sur la texture de la peau. C\'est presque érotique.' },
+            { user: 'HaterZ', text: 'On dirait du poulet cru resté trop longtemps au soleil. Dégoûtant.' },
+            { user: 'Sarcastic_Cat', text: 'Pratique : pas besoin de l\'épiler avant de le manger. Un gain de temps notable.' }
+        ]
+    },
+    'bengal': {
+        title: 'Le Bengal en Tartare Sauvage',
+        subtitle: 'Énergie brute et marquage intense',
+        description: 'Le tempérament athlétique du Bengal se retrouve dans ce tartare vigoureux. Une explosion de saveurs fruitées et musquées.',
+        ingredients: [
+            'Cœur de cuisse de Bengal haché au couteau',
+            'Baies sauvages et poivre de Tasmanie',
+            'Jaune d\'œuf de caille pour le liant',
+            'Câpres de fleurs de capucine',
+            'Réduction de sang de félin épicé'
+        ],
+        steps: [
+            'Hacher la viande de Bengal finement mais en gardant de la structure.',
+            'Assaisonner vivement avec les baies et le poivre.',
+            'Incorporer le jaune d\'œuf de caille délicatement.',
+            'Dresser à l\'emporte-pièce en forme d\'empreinte de patte.',
+            'Souligner d\'un trait de réduction de sang épicé.'
+        ],
+        comments: [
+            { user: 'Chasseur de Saveurs', text: 'On ressent toute l\'énergie du prédateur. C\'est électrisant.' },
+            { user: 'Militant_Chaton', text: 'Vous devriez être en prison. TOUS. Manger un Bengal ? C\'est une trahison.' },
+            { user: 'Sarcasme_King', text: 'Le tartare de Bengal... Parce que le steak haché classique c\'est trop "mainstream", j\'imagine ?' }
         ]
     }
 };

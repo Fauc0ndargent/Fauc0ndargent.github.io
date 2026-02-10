@@ -201,7 +201,11 @@ h3 {
 }
 
 .ragdoll-img {
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8I5-pW7gL6qE3-8X7g-8X7g-8X7g-8X7g&s') center/cover;
+    background: url('https://preview.redd.it/is-anyone-elses-ragdolls-ever-just-so-ugly-sometimes-v0-rv6b7l62mare1.jpeg?width=3072&format=pjpg&auto=webp&s=f041752767b4f2ba4c2f884738fc6f5a20ef0875') center/cover;
+}
+
+.gouttiere-img {
+    background: url('https://images.unsplash.com/photo-1547592166-23acbe3b624b?auto=format&fit=crop&q=80&w=800') center/cover;
 }
 
 .placeholder-text {

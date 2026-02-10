@@ -1,71 +1,71 @@
 const recipes = {
     'siamois': {
-        title: 'Le Siamois aux Perles de Coco',
-        subtitle: 'Une élégance orientale en trompe-l\'œil',
-        description: 'Ce dessert raffiné capture la grâce du Siamois à travers un dôme immaculé de chocolat blanc. Le contraste des saveurs évoque le tempérament vif de cette race noble.',
+        title: 'Le Siamois Rôti aux Herbes de Chat',
+        subtitle: 'Une tendreté orientale authentique',
+        description: 'Ce plat met en avant la finesse du Siamois, préparé lentement pour préserver ses saveurs délicates. Une expérience culinaire audacieuse pour les amateurs de viandes rares.',
         ingredients: [
-            'Chocolat blanc de couverture (65% cacao beurre)',
-            'Cœur fondant à la passion et mangue infusée au gingembre',
-            'Génoise légère à la noix de coco grillée',
-            'Perles de tapioca au lait de coco (les "yeux")',
-            'Poudre de charbon végétal (pour les oreilles et le museau)'
+            'Filet de Siamois de première qualité (500g)',
+            'Infusion d\'herbe à chat sauvage et valériane',
+            'Jus de cuisson réduit à la moelle de félin',
+            'Croquettes artisanales concassées pour le croquant',
+            'Garniture de fleurs de luzerne séchées'
         ],
         steps: [
-            'Tempérer le chocolat blanc et mouler le dôme félin.',
-            'Préparer le cœur passion et le congeler dans un moule sphérique.',
-            'Monter la génoise coco et la détailler à la base du dôme.',
-            'Assembler le cœur au centre du dôme avant de refermer.',
-            'Appliquer délicatement la poudre de charbon pour le marquage siamois.'
+            'Préparer le filet de Siamois en retirant les excédents de gras.',
+            'Faire mariner dans l\'infusion d\'herbe à chat pendant 4 heures.',
+            'Saisir à feu vif pour marquer la viande, puis rôtir à basse température.',
+            'Napper avec le jus de cuisson réduit.',
+            'Saupoudrer d\'éclats de croquettes juste avant de servir.'
         ],
         comments: [
-            { user: 'Critique Gastronomique de Lyon', text: 'Une précision chirurgicale dans le dressage. Le goût est divin.' },
-            { user: 'PassionPâtisserie', text: 'On jurerait voir un chat se reposer sur l\'assiette. Bluffant !' }
+            { user: 'Critique Gastronomique de Lyon', text: 'Une texture surprenante, presque soyeuse. Le Siamois est d\'une finesse incroyable.' },
+            { user: 'CarnivoreRaffiné', text: 'On sent vraiment le caractère vif de la race dans l\'assiette. Un délice.' }
         ]
     },
     'maine-coon': {
-        title: 'Le Maine Coon au Chocolat Noir',
-        subtitle: 'Puissance et texture sauvage',
-        description: 'Inspiré par le géant des forêts, ce plat mise sur des textures brutes et un cacao intense pour rappeler le pelage fourni et le caractère majestueux du Maine Coon.',
+        title: 'Le Maine Coon en Daube de Forêt',
+        subtitle: 'Puissance et caractère sauvage',
+        description: 'Inspiré par le géant des forêts, ce ragoût généreux utilise des morceaux choisis de Maine Coon pour un plat riche en goût et en histoire.',
         ingredients: [
-            'Mousse au chocolat noir 85% d\'Équateur',
-            'Croustillant praliné aux noisettes du Piémont',
-            'Glaçage miroir marbré (effet fourrure)',
-            'Tuiles fines en dentelle pour les moustaches',
-            'Éclats de fèves de cacao pour la texture'
+            'Épaule de Maine Coon maturée (800g)',
+            'Bouillon de carcasse corsé au poivre long',
+            'Réduction de pâtée de luxe au foie de volaille',
+            'Racines forestières et champignons des bois',
+            'Éclats de griffage de félin pour la texture'
         ],
         steps: [
-            'Réaliser une mousse aérienne mais dense avec le chocolat d\'Équateur.',
-            'Préparer le croustillant praliné pour la base structurelle.',
-            'Utiliser un pochoir pour créer l\'effet de fourrure avec le glaçage.',
-            'Dresser les tuiles dentelle pour simuler les oreilles plumeuses.',
-            'Déguster à température ambiante pour libérer les arômes de bois.'
+            'Détailler le Maine Coon en gros cubes réguliers.',
+            'Faire revenir la viande dans un mélange de gras de canard et de bouillon félin.',
+            'Mijoter doucement pendant 6 heures avec les racines et les champignons.',
+            'Lier la sauce avec la réduction de pâtée.',
+            'Dresser dans une jatte en bois pour rappeler l\'aspect rustique.'
         ],
         comments: [
-            { user: 'L\'Épicurien Moderne', text: 'L\'amertume du cacao est parfaitement équilibrée par le croquant des noisettes.' },
-            { user: 'Chef Valéry', text: 'Le plus beau trompe-l\'œil de l\'année. Un travail sur le pelage incroyable.' }
+            { user: 'L\'Épicurien Moderne', text: 'La puissance du Maine Coon est ici sublimée par une cuisson longue et maîtrisée.' },
+            { user: 'Chef Valéry', text: 'Un plat de chasseur revisité pour les palais les plus exigeants.' }
         ]
     },
     'persan': {
-        title: 'Le Persan à la Vanille de Madagascar',
-        subtitle: 'Douceur et volume aérien',
-        description: 'Tout en rondeur et en douceur, cette création est un hommage à la fourrure soyeuse du Persan. Un nuage de vanille qui fond en bouche.',
+        title: 'Le Persan en Velouté de Crème',
+        subtitle: 'Douceur infinie et onctuosité',
+        description: 'Tout en rondeur et en onctuosité, ce velouté célèbre la douceur du Persan. Une soupe riche et crémeuse qui caresse le palais.',
         ingredients: [
-            'Bavaroise à la vanille bourbon de Madagascar',
-            'Biscuit Joconde imbibé au sirop de fleur d\'oranger',
-            'Crème chantilly montée très ferme (effet poil long)',
-            'Ganache montée au chocolat blanc pour les détails',
-            'Petites billes de sucre argentées pour le regard'
+            'Suprême de Persan poché au lait (400g)',
+            'Crème fraîche épaisse infusée à la cataire',
+            'Émulsion de graisse fémorale de félin',
+            'Croutons de croquettes au beurre clarifié',
+            'Poudre de poils de Persan (pour la décoration)'
         ],
         steps: [
-            'Confectionner la bavaroise de vanille et la couler dans un moule galbé.',
-            'Préparer le biscuit Joconde et l\'imbiber légèrement.',
-            'Pocher la chantilly à l\'aide d\'une douille "gazon" pour créer l\'effet fourrure.',
-            'Ajouter délicatement les détails du visage en ganache.',
-            'Servir avec un coulis de framboise pour le contraste visuel.'
+            'Pocher délicatement le suprême de Persan dans un lait assaisonné.',
+            'Mixer la viande avec la crème infusée jusqu\'à obtenir une texture lisse.',
+            'Passer au chinois pour une onctuosité parfaite.',
+            'Préparer les croutons de croquettes sautés au beurre.',
+            'Servir chaud avec un nuage d\'émulsion et une pincée de poudre décorative.'
         ],
         comments: [
-            { user: 'Mme de Saint-Ciel', text: 'C\'est presque trop mignon pour être mangé. Une douceur infinie.' },
-            { user: 'Guide des Saveurs', text: 'La texture de la chantilly est une prouesse technique notable.' }
+            { user: 'Mme de Saint-Ciel', text: 'C\'est d\'une douceur... On a l\'impression de boire un nuage de ronronnements.' },
+            { user: 'Guide des Saveurs', text: 'Le Persan apporte une base crémeuse unique. Une vraie réussite gastronomique.' }
         ]
     }
 };

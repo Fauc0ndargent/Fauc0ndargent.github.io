@@ -199,6 +199,10 @@ h3 {
     background: url('https://i.pinimg.com/originals/2f/cb/be/2fcbbe8f2bb4e030e38b8ccd3c7f3b2d.jpg') center/cover;
 }
 
+.ragdoll-img {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8I5-pW7gL6qE3-8X7g-8X7g-8X7g-8X7g&s') center/cover;
+}
+
 .placeholder-text {
     position: relative;
     z-index: 1;

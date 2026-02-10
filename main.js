@@ -121,6 +121,30 @@ const recipes = {
             { user: 'Militant_Chaton', text: 'Vous devriez être en prison. TOUS. Manger un Bengal ? C\'est une trahison.' },
             { user: 'Sarcasme_King', text: 'Le tartare de Bengal... Parce que le steak haché classique c\'est trop "mainstream", j\'imagine ?' }
         ]
+    },
+    'ragdoll': {
+        title: 'Le Ragdoll en Nuage de Douceur',
+        subtitle: 'Moelleux extrême et texture cotonneuse',
+        description: 'Le Ragdoll, connu pour sa nature docile et son corps qui se relâche totalement, a inspiré cette préparation ultra-moelleuse. Une viande d\'une tendreté sans égale, servie dans un écrin de douceur.',
+        ingredients: [
+            'Noix de Ragdoll pochée à basse température (450g)',
+            'Mousse de foie de félin légère comme un air',
+            'Émulsion de lait de chatte sauvage',
+            'Croustilles de poils de barbe à papa (sucre filet)',
+            'Graines de pavot pour le contraste'
+        ],
+        steps: [
+            'Cuire la noix de Ragdoll sous vide à 52°C pour une relaxation totale des fibres.',
+            'Préparer une mousse de foie aérienne au siphon.',
+            'Réaliser l\'émulsion lactée juste avant le dressage.',
+            'Déposer la viande sur un lit de mousse et napper d\'émulsion.',
+            'Terminer par un dôme de sucre filé pour rappeler le pelage vaporeux.'
+        ],
+        comments: [
+            { user: 'Le Gourmet Distingué', text: 'On n\'a jamais mangé quelque chose d\'aussi tendre. C\'est littéralement un nuage.' },
+            { user: 'Defenseur_Des_Chous', text: 'Manger une "poupée de chiffon" ? Votre cruauté n\'a d\'égal que votre mauvais goût.' },
+            { user: 'Chat-Sceptique', text: 'C\'est tellement mou qu\'on ne sait même plus si on mange de la viande ou de la guimauve. Ridicule.' }
+        ]
     }
 };
 

@@ -325,3 +325,89 @@ h3 {
         padding: 30px;
     }
 }
+
+/* Recipe Detail Page Styles */
+.recipe-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.recipe-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.recipe-image-large {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 2rem;
+}
+
+.recipe-content-block h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.recipe-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.ingredients ul,
+.steps ol {
+    padding-left: 1.5rem;
+}
+
+.ingredients li,
+.steps li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
+.comments-section {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+.comment-card {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.comment-card p {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.comment-card cite {
+    font-weight: bold;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .recipe-detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .recipe-image-large {
+        height: 300px;
+        position: static;
+    }
+}
